@@ -21,7 +21,6 @@ body {
 
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .title {
@@ -127,6 +126,10 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.features .list {
+  line-height: 1.71;
+}
+
 .tasks .title,
 .team > .title {
   font-size: 36px;
@@ -141,6 +144,8 @@ body {
 }
 .team > .list .title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
 }
 
 /* Футер */
@@ -151,9 +156,11 @@ body {
 .footer-address {
   color: var(--white-color);
   font-style: normal;
+  line-height: 1.71;
 }
 .footer-link {
   color: var(--third-text-color);
+  line-height: 1.71;
 }
 
 /* Страница Портфолио */
